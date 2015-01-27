@@ -8,3 +8,4 @@ platforms :mri_20, :mri_21 do
 end
 
 gem 'statsd-ruby'
+gem 'faraday'
