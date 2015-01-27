@@ -9,3 +9,7 @@ end
 
 gem 'statsd-ruby'
 gem 'faraday'
+
+group :development do
+  gem 'dotenv'
+end
