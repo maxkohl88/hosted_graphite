@@ -1,4 +1,5 @@
 require 'forwardable'
+require 'faraday'
 require 'hosted_graphite/version'
 require 'hosted_graphite/protocol'
 require 'hosted_graphite/udp'
