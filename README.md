@@ -54,6 +54,12 @@ HostedGraphite.protocol = :http
 HostedGraphite.send_metric('foo.http', 1.2)
 ```
 
+#### Sending a metric via Faraday
+```ruby
+HostedGraphite.protocol = :faraday_protocol
+HostedGraphite.send_metric('foo.faraday', 1.2)
+```
+
 ### HostedStatsD
 
 Enable Statsd on your [account](https://www.hostedgraphite.com/app/data-sources)
