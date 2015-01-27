@@ -5,6 +5,7 @@ require 'hosted_graphite/protocol'
 require 'hosted_graphite/udp'
 require 'hosted_graphite/tcp'
 require 'hosted_graphite/http'
+require 'hosted_graphite/faraday_protocol'
 
 module HostedGraphite
   extend Forwardable
